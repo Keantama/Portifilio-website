@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>  
+    Home
+</head>
+<body>
+    <h1>Home Page</h1>
+    {% for n in post %}     <!--loop use gareko 'post' agadi ot python bata aako ho 'n' no of loops vaiable j rakhda ni hunxa-->
+    <h2>{{ n.title}}</h2>
+    <p>By {{ n.author}}</p>
+    <p>{{n.content}}</p>
+    {% endfor %}
+</body>
+</html>
