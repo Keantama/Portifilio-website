@@ -1,13 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
-    {% block head %} {% endblock %}
-</head>
-<body>
-    {% block body %} {% endblock %}
-</body>
-</html>
+<!DOCtype html>
+<html>
+    <head>
+        <title> Ananta Parajuli | Electrical Engineer </title>
+        <meta name="author" content="Ananta Parajuli">
+        <meta http-equiv="refresh" content="120">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="description" content="Engineer for fun, always seeking for opportunity to improve.">
+        <style>
+            body {
+                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                 margin: 0;
+                 padding: 0;
+                 background: #055f9b;
+                 transition: background-color 0.3s ease;
+                 user-select: none; /* Added */
+                 }
+            .workspace{
+               display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .namebox {
+                border: black ;
+                border-style: solid;
+                border-width: 5px;
+                border-radius: 10px;
+                width: 500px;
+                background-color: blanchedalmond;
+                text-align: center;
+                position: relative;
+                justify-content: center;
+                cursor: pointer;
+                box-shadow: 10px 20px rgb(5, 16, 82);
+            }
+            .namebox:hover{
+                border: rgb(255, 255, 255) ;
+                border-style: solid;
+                border-width: 5px;
+                border-radius: 10px;
+                text-align: center;
+                position: relative;
+                justify-content: center;
+                box-shadow: 10px 20px rgb(100, 111, 175)
+            }
+         </STYLE>        
+    </head>
+    <body>
+        <div class="workspace">
+        <div class= "namebox">
+        <center><h1>ANANTA PARAJULI</h1></center>
+        </div>
+    </div>
+    </body>
+</html> 
