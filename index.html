@@ -17,7 +17,8 @@
                  user-select: none; /* Added */
                  }
             .workspace{
-               display: flex;
+                background: #9b74ce;
+                display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
@@ -41,18 +42,65 @@
                 border-style: solid;
                 border-width: 5px;
                 border-radius: 10px;
-                text-align: center;
-                position: relative;
-                justify-content: center;
-                box-shadow: 10px 20px rgb(100, 111, 175)
+                box-shadow: 10px 20px rgb(100, 111, 175);
+            }
+            img {
+                border: 1px solid #9c2121;
+                position: absolute;
+                justify-content:center;
+                border-radius: 200px;
+                padding: 5px;
+                width: 400px;
+                right: 5px;
+                top: 5px;
+            }
+            .leftdiv
+         {
+         float: left;
+         position:absolute;
+         left:5px;
+         top: 5px
+        
+         }
+         .botdiv
+         {
+         float: left;
+         position:absolute;
+         left:5px;
+         top: 64vh;
+         }
+         .bot
+         {
+         float: left;
+         position:absolute;
+         right:5px;
+         top: 64vh;
+         }
+            img:hover{
+                border: rgb(255, 255, 255) ;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 200px;
             }
          </STYLE>        
     </head>
     <body>
         <div class="workspace">
+        <div>
+            <img src="D:\Blender project\BOT.png" alt="BOT">
+        </div>       
         <div class= "namebox">
-        <center><h1>ANANTA PARAJULI</h1></center>
+            <center><h1>ANANTA PARAJULI</h1></center>
         </div>
-    </div>
+        <div>
+            <img class="botdiv" src="D:\Blender project\vendingmachine.png" alt="Vending Machine">
+        </div>
+        <div>
+            <img class="leftdiv" src="D:\Blender project\vendingmachine.png" alt="Vending Machine">
+        </div>
+        <div>
+            <img class="bot" src="D:\Blender project\vendingmachine.png" alt="Vending Machine">
+        </div>
+        </div>  
     </body>
 </html> 
